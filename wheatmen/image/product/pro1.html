@@ -1,0 +1,242 @@
+<html>
+<head>
+<title>Product</title>
+<meta charset="UTF-8">
+</head>
+<style>
+body{
+	width:100%;
+	overflow-x:hidden;
+	background-color:#e8ecf1;
+	font-family:"Microsoft YaHei UI";
+}
+.top{
+	position:relative;
+	left:12%;
+	top:30px;
+}
+.top-border{
+	
+	width:76%;
+	height:1px;
+	background-color:#000;
+}
+.product-contain{
+	position:relative;
+	left:12%;
+}
+.product-content-pic{
+	position:relative;
+	top:100px;
+	width:35%;
+	height:410px;
+	background-image:url(pro1.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+.product-content-text{
+	position:relative;
+	top:-300;
+	left:550px;
+	/*background:#000;*/
+	width:35.5%;
+	height:400px;
+}
+.product-company{
+	border-left:10px solid #0C9;
+	padding:5px;
+	font-size:24px;
+	font-weight:100;
+}
+.product-series{
+	font-size:36px;
+	font-weight:100;
+}
+.product-series-des{
+	font-size:14px;
+	font-weight:100;
+	width:180px;
+}
+.product-detail{
+	position:relative;
+	top:30px;
+}
+table td{
+	font-size:14px;
+	font-weight:100;
+}
+
+.send-message-board{
+	position:relative;
+	top:-200px;
+}
+.username{
+	border-radius:5px;
+	border:1px solid#333;
+}
+.send-message-board textarea{
+	margin-top:20px;
+	width:60%; 
+	height:200px;
+	border-radius:5px;
+	border:1px solid#333;
+}
+.send{
+	border-radius:2px;
+	background-color:#78b937;
+}
+
+
+
+/* userNameTd and messageTd*/
+
+.userNameTd{
+	background-color:#096;
+	width:1000px;
+	color:#fff;
+
+	position:relative;
+	top:120px;
+}
+
+.messageTd
+{
+	background-color:#fff;
+	width:1000px;
+
+	position:relative;
+	top:120px;
+	
+	height:100px;
+}
+.comment-border{
+	position:relative;
+	top:100px;
+	font-size:14px;
+}
+.buttom-border{
+	
+	position:relative;
+	top:100px;
+	
+	width:76%;
+	height:1px;
+	background-color:#000;
+}
+
+</style>
+
+<body>
+    <div class="page-contain">
+    	<div class="top">
+        	<div class="top-text">
+            wheatmen
+            </div>
+            <div class="top-border">
+            </div>
+        </div><!--top-->
+        <div class="product-contain">
+        	<div class="product-content-pic">
+             
+            </div><!--product-content-pic-->
+            <div class="product-content-text">
+            	<div class="product-company">
+                Wheatmen 麦萌
+                </div><!--product-company-->
+                <div class="product-series">
+                ×洗漱系列
+                </div><!--product-series-->
+                <p class="product-series-des">
+                    系列简介：该系列为Wheatmen麦萌科技有限责任公司推出的第三套产品系列，该系列产品目前包含牙刷、梳子等5款洗漱用品，该产品系列推出时间较短，内容有待完善。
+                </p><!--product-series-des-->
+                <div class="product-detail">
+            			<table width="600" border="0">
+                              <tr>
+                                <td width="59" id="item">名称：</td>
+                                <td width="500" id="content">麦萌漱口杯</td>
+                              </tr>
+                              <tr>
+                                <td id="item">用途：</td>
+                                <td id="content">装漱口用水、放置牙刷</td>
+                              </tr>
+                              <tr>
+                                <td id="item">颜色：</td>
+                                <td id="content">藕色、杏色、柳青色、浅藤色</td>
+                              </tr>
+                              <tr>
+                                <td id="item">规格：</td>
+                                <td id="content">直径：7.0cm，高11.0cm</td>
+                              </tr>
+                              <tr>
+                                <td id="item">重量：</td>
+                                <td id="content">142g</td>
+                              </tr>
+                              <tr>
+                                <td id="item">特点：</td>
+                                <td id="content">独特杯耳设计，可倒立放置，防止因积水造成水垢。</td>
+                              </tr>
+                            </table>
+                            
+
+                </div><!--product-detail-->
+              
+            </div><!--product-contain-text-->
+            
+            <div class="send-message-board">
+            	<div>
+                <input class="username" id="name" type="text" size="100" placeholder="昵称"/>&nbsp;&nbsp;&nbsp;&nbsp;<input  class="send" type="button" cols="50" rows="10" value="发送留言"   onclick="javascript:submitmessage()"/>
+                </div>
+                <textarea id="message" placeholder="评论"></textarea>
+                
+                <div class="comment-border">
+                评论区
+                </div>
+                <div class="buttom-border">
+            	</div>
+                
+                <div id="sent-message">
+              	</div>
+            </div><!--message-board-->
+            
+        </div><!--product-contain-->
+    </div><!--page-contain-->
+</body>
+<script>
+	function submitmessage(){
+		
+		var mybr = document.createElement("br");
+   		var myTable = document.createElement("table");
+		myTable.className="myTable";
+		
+		
+		/*userName*/
+		var userNameTr=myTable.insertRow(-1);
+		
+		var userNameTd=userNameTr.insertCell(-1);
+		
+		userNameTd.className="userNameTd";
+		userNameTd.innerHTML=document.getElementById("name").value;
+		
+		/*message*/
+		var messageTr=myTable.insertRow(-1);
+		var messageTd=messageTr.insertCell(-1);
+		
+		messageTd.className="messageTd";
+		
+		messageTd.innerHTML=document.getElementById("message").value;
+		
+		
+		/*clean the name board and message board*/
+		document.getElementById("name").value="";
+		document.getElementById("message").value="";
+		
+		/*append the child created into the board*/
+		var message=document.getElementById("sent-message");
+		message.appendChild(mybr);
+		message.appendChild(mybr);
+		message.appendChild(mybr);
+		message.appendChild(myTable);
+		
+	}
+</script>
+</html>
