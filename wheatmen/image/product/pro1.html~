@@ -30,7 +30,7 @@ body{
 	top:100px;
 	width:35%;
 	height:410px;
-	background-image:url(pro5.jpg);
+	background-image:url(pro1.jpg);
 	background-size:cover;
 	background-repeat:no-repeat;
 }
@@ -144,24 +144,20 @@ table td{
                 Wheatmen 麦萌
                 </div><!--product-company-->
                 <div class="product-series">
-                ×厨配系列
+                ×洗漱系列
                 </div><!--product-series-->
                 <p class="product-series-des">
-                    系列简介：该系列为Wheatmen麦萌科
-                    技有限责任公司推出的第一套产品系列
-                    ，也是本公司目前的核心系列，包含人
-                    们日常生活中所需的各种厨房用具和餐
-					具等共14款产品。
+                    系列简介：该系列为Wheatmen麦萌科技有限责任公司推出的第三套产品系列，该系列产品目前包含牙刷、梳子等5款洗漱用品，该产品系列推出时间较短，内容有待完善。
                 </p><!--product-series-des-->
                 <div class="product-detail">
             			<table width="600" border="0">
                               <tr>
                                 <td width="59" id="item">名称：</td>
-                                <td width="500" id="content">麦萌餐碟</td>
+                                <td width="500" id="content">麦萌漱口杯</td>
                               </tr>
                               <tr>
                                 <td id="item">用途：</td>
-                                <td id="content">装盛食物菜肴</td>
+                                <td id="content">装漱口用水、放置牙刷</td>
                               </tr>
                               <tr>
                                 <td id="item">颜色：</td>
@@ -169,15 +165,15 @@ table td{
                               </tr>
                               <tr>
                                 <td id="item">规格：</td>
-                                <td id="content">直径15.0cm，高3.6cm</td>
+                                <td id="content">直径：7.0cm，高11.0cm</td>
                               </tr>
                               <tr>
                                 <td id="item">重量：</td>
-                                <td id="content">180.0g</td>
+                                <td id="content">142g</td>
                               </tr>
                               <tr>
                                 <td id="item">特点：</td>
-                                <td id="content">餐碟底座加厚，放置时更加平稳，且起到隔热的效果。</td>
+                                <td id="content">独特杯耳设计，可倒立放置，防止因积水造成水垢。</td>
                               </tr>
                             </table>
                             

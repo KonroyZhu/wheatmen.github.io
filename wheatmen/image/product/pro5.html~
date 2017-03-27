@@ -30,7 +30,7 @@ body{
 	top:100px;
 	width:35%;
 	height:410px;
-	background-image:url(pro5.jpg);
+	background-image:url(pro3.jpg);
 	background-size:cover;
 	background-repeat:no-repeat;
 }

@@ -157,11 +157,11 @@ table td{
             			<table width="600" border="0">
                               <tr>
                                 <td width="59" id="item">名称：</td>
-                                <td width="500" id="content">麦萌餐碟</td>
+                                <td width="500" id="content">麦萌双筷</td>
                               </tr>
                               <tr>
                                 <td id="item">用途：</td>
-                                <td id="content">装盛食物菜肴</td>
+                                <td id="content">夹取食物</td>
                               </tr>
                               <tr>
                                 <td id="item">颜色：</td>
@@ -169,15 +169,15 @@ table td{
                               </tr>
                               <tr>
                                 <td id="item">规格：</td>
-                                <td id="content">直径15.0cm，高3.6cm</td>
+                                <td id="content">长32.2cm，直径0.5cm</td>
                               </tr>
                               <tr>
                                 <td id="item">重量：</td>
-                                <td id="content">180.0g</td>
+                                <td id="content">22 .0g</td>
                               </tr>
                               <tr>
                                 <td id="item">特点：</td>
-                                <td id="content">餐碟底座加厚，放置时更加平稳，且起到隔热的效果。</td>
+                                <td id="content">筷子尾部加有防滑设计，增加摩擦，更便于夹起食物。</td>
                               </tr>
                             </table>
                             
